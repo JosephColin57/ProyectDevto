@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header {
+  width: 80%;
+  background-color: rgb(241, 116, 250);
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(41, 253, 246);
+  width: 80%;
+  height: 100%;
+}
+main #izquierda {
+  background-color: aqua;
+  flex: 20%;
+  padding: 20PX;
+}
+main section {
+  flex: 50%;
+  background-color: rgb(247, 158, 42);
+  padding: 20PX;
+}
+main #derecha {
+  background-color: aqua;
+  flex: 30%;
+  padding: 20PX;
+}/*# sourceMappingURL=main.css.map */
