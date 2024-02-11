@@ -1,10 +1,58 @@
-.crayons-layout {
-  font-size: 1rem;
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header {
   width: 100%;
-  max-width: 1280px;
+  background-color: rgb(252, 214, 255);
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(41, 253, 246);
+  width: 80%;
+  height: 100%;
+  font-size: 14px;
+}
+main #izquierda {
+  background-color: white;
+  flex: 20%;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  padding: 20px;
+  font-size: 0.88rem;
+}
+main section {
+  flex: 50%;
+  background-color: rgb(247, 158, 42);
+  padding: 20px;
+}
+main #derecha {
+  background-color: aqua;
+  flex: 30%;
+  padding: 20px;
+}
+main a {
+  color: black;
+}
+main .container {
   display: grid;
-  grid-template-columns: var(--layout);
-  margin: 0px auto;
-  gap: 1rem;
-  padding: 1rem;
+  width: 96%;
+  margin: 0 auto;
+  gap: 1.8rem;
+  grid-template-columns: 12rem auto 23 rem;
+}
+main ul {
+  list-style: none;
 }/*# sourceMappingURL=main.css.map */
