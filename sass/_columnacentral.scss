@@ -1,0 +1,35 @@
+$textmain: #090909;
+$texthover: rgb(59,73,223);
+$bgcard: rgb(255,255,255);
+$bgcolormain:rgb(245,245,245);
+$radius:0.375rem;
+
+section {
+    font-family: Arial, Helvetica, sans-serif;
+    flex: 50%;
+    background-color: $bgcolormain;
+    padding: 20PX;
+    gap: 20px;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction:column ;
+    a {
+        text-decoration: none;
+        color: $textmain;
+        padding: 8px 12px 8px 12px;
+        &:hover {
+            color: $texthover;
+            background-color: $bgcard;
+            border-radius: $radius;
+        }
+    }
+    .tarjeta1 {
+        border-radius: $radius;
+        width:100%;
+        background-color: $bgcard;
+        overflow: hidden;
+        img {
+            width: 100%;
+        }
+    }
+}

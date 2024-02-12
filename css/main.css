@@ -1,3 +1,32 @@
+section {
+  font-family: Arial, Helvetica, sans-serif;
+  flex: 50%;
+  background-color: rgb(245, 245, 245);
+  padding: 20PX;
+  gap: 20px;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+section a {
+  text-decoration: none;
+  color: #090909;
+  padding: 8px 12px 8px 12px;
+}
+section a:hover {
+  color: rgb(59, 73, 223);
+  background-color: rgb(255, 255, 255);
+  border-radius: 0.375rem;
+}
+section .tarjeta1 {
+  border-radius: 0.375rem;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+}
+section .tarjeta1 img {
+  width: 100%;
+}
 
 * {
   box-sizing: border-box;
@@ -10,6 +39,7 @@ body {
   align-items: center;
   flex-direction: column;
   height: 100vh;
+  background-color: rgb(245, 245, 245);
 }
 
 header {
@@ -29,16 +59,8 @@ main #izquierda {
   flex: 20%;
   padding: 20PX;
 }
-main section {
-  flex: 50%;
-  background-color: rgb(247, 158, 42);
-  padding: 20PX;
-}
 main #derecha {
   background-color: aqua;
   flex: 30%;
   padding: 20PX;
 }/*# sourceMappingURL=main.css.map */
-=======
-/*# sourceMappingURL=main.css.map */
-

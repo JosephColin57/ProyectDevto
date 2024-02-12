@@ -1,3 +1,5 @@
+@import "columnacentral";
+
 * {
     box-sizing: border-box;
 }
@@ -9,6 +11,7 @@ body {
     align-items: center;
     flex-direction: column;
     height: 100vh;
+    background-color: $bgcolormain;
 }
 
 header {
@@ -26,12 +29,6 @@ main {
     #izquierda {
         background-color: aqua;
         flex: 20%;
-        padding: 20PX;
-    }
-
-    section {
-        flex: 50%;
-        background-color: rgb(247, 158, 42);
         padding: 20PX;
     }
 
