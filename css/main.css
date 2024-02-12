@@ -27,6 +27,47 @@ section .tarjeta1 {
 section .tarjeta1 img {
   width: 100%;
 }
+section .tarjeta2 {
+  border-radius: 0.375rem;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  box-sizing: border-box;
+  padding: 20px;
+}
+section .tarjeta2 .contentcard2 {
+  width: 90%;
+}
+section .tarjeta2 .contentcard2 img {
+  width: 100%;
+  border-radius: 0.375rem;
+}
+section .tarjeta2 .topcard2 {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+section .tarjeta2 .topcard2 .title {
+  color: rgb(92, 92, 92);
+}
+section .tarjeta2 .topcard2 .button {
+  font-weight: 900;
+}
+section .tarjeta2 p {
+  color: rgb(23, 23, 23);
+}
+section .tarjeta2 a {
+  color: rgb(59, 73, 223);
+  padding: 0;
+  text-decoration: underline;
+  font-size: 1rem;
+  font-weight: bolder;
+}
 
 * {
   box-sizing: border-box;
