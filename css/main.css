@@ -1,3 +1,4 @@
+@charset "UTF-8";
 section {
   font-family: Arial, Helvetica, sans-serif;
   flex: 50%;
@@ -27,7 +28,8 @@ section .tarjeta1 {
 section .tarjeta1 img {
   width: 100%;
 }
-section .tarjeta2 {
+
+.tarjeta2 {
   border-radius: 0.375rem;
   width: 100%;
   background-color: rgb(255, 255, 255);
@@ -39,34 +41,77 @@ section .tarjeta2 {
   box-sizing: border-box;
   padding: 20px;
 }
-section .tarjeta2 .contentcard2 {
+.tarjeta2 .contentcard2 {
   width: 90%;
 }
-section .tarjeta2 .contentcard2 img {
+.tarjeta2 .contentcard2 img {
   width: 100%;
   border-radius: 0.375rem;
 }
-section .tarjeta2 .contentcard2 p {
+.tarjeta2 .contentcard2 p {
   color: rgb(23, 23, 23);
 }
-section .tarjeta2 .contentcard2 a {
+.tarjeta2 .contentcard2 a {
   color: rgb(59, 73, 223);
   padding: 0;
   text-decoration: underline;
   font-size: 1rem;
   font-weight: bolder;
 }
-section .tarjeta2 .topcard2 {
+.tarjeta2 .topcard2 {
   width: 100%;
   display: flex;
   gap: 20px;
   justify-content: space-between;
 }
-section .tarjeta2 .topcard2 .title {
+.tarjeta2 .topcard2 .title {
   color: rgb(92, 92, 92);
 }
-section .tarjeta2 .topcard2 .button {
+.tarjeta2 .topcard2 .button {
   font-weight: 900;
+}
+
+.tarjeta3 {
+  border-radius: 0.375rem;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  box-sizing: border-box;
+  padding: 20px;
+  border: 1px solid black;
+}
+.tarjeta3 .topcard3 {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+.tarjeta3 .topcard3 .title {
+  color: rgb(92, 92, 92);
+}
+.tarjeta3 .topcard3 .perfil {
+  text-align: center;
+  padding: 20px;
+}
+.tarjeta3 .topcard3 img {
+  border-radius: 50%; /* Para redondear la imagen y simular una foto de perfil*/
+  width: 30px; /* Ajusta el tamaño según tus preferencias */
+  height: 30px;
+  -o-object-fit: cover;
+     object-fit: cover; /* Para mantener la relación de aspecto de la imagen */
+}
+.tarjeta3 .topcard3 .contentcard3 {
+  width: 90%;
+  text-align: center;
+  display: flex;
+  align-content: space-between;
+}
+.tarjeta3 .topcard3 h3 {
+  display: inline-flex;
 }
 
 * {
