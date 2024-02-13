@@ -1,0 +1,171 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: rgb(245, 245, 245);
+    font-family: "Roboto", sans-serif;
+  }
+
+
+
+.nav-container {
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    padding-bottom: 20px;
+    top: 0;
+  }
+  
+  .left-sideNav {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+  }
+  .left-sideNav .left-sideNav li {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .right-sideNav {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .right-sideNav .right-sideNav li {
+    display: flex;
+    align-content: center;
+    align-items: center;
+  }
+  
+  .logo {
+    position: relative;
+    width: 50px;
+    height: 40px;
+    display: flex;
+    flex: 1 1 auto;
+    align-items: center;
+    margin-top: 5px 5px;
+    right: 100px;
+  }
+  .logo .imagenLogo {
+    -o-object-fit: contain;
+    object-fit: contain;
+    width: auto;
+    max-width: 100%;
+  }
+  
+  .container-busqueda {
+    display: flex;
+    flex: 1 auto auto;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 400px;
+    min-width: none;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    margin-left: 10px;
+  }
+  
+  .campoBusqueda {
+    display: flex;
+    justify-content: space-between;
+  
+    
+  }
+  
+  .inputbusqueda {
+    display: flex;
+    justify-content: flex-start;
+    border: 0;
+    width: 100%;
+    height: 30px;
+    left: 0px;
+
+    border-color: transparent;
+  }
+  
+  button {
+    display: flex;
+    border-radius: 5px;
+    border: 0;
+    background-color: transparent;
+    height: 24px;
+    width: 24px;
+    
+    
+  }
+  
+  .login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 83px;
+    height: 40px;
+    border-radius: 10xp;
+    color: black;
+  }
+  
+  .login a:link,
+  a:visited,
+  a:active {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .createAccount {
+    display: flex;
+    flex: 1 1 auto;
+    align-items: center;
+    justify-items: center;
+    margin-left: 10px;
+    max-width: 145px;
+    height: 40px;
+    border: 1px solid rgb(57, 73, 223);
+    border-radius: 10px;
+    text-decoration: none;
+    color: rgb(57, 73, 223);
+  }
+  
+  .createAccount a:link,
+  a:visited,
+  a:active {
+    text-decoration: none;
+  }
+  
+  .createAccount:hover {
+    background-color: rgb(57, 73, 223);
+  }
+  
+  .login:hover {
+    background-color: rgb(235, 236, 253);
+    border-radius: 10px;
+  }
+  
+  button svg {
+    height: 30px;
+    width: 30px;
+  }
+  
+  button svg:hover {
+    background-color: rgb(235, 236, 253);
+    height: 30px;
+    width: 35px;
+    border-radius: 10px;
+  }
