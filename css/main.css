@@ -1,0 +1,107 @@
+section {
+  font-family: Arial, Helvetica, sans-serif;
+  flex: 50%;
+  background-color: rgb(245, 245, 245);
+  padding: 20PX;
+  gap: 20px;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+section a {
+  text-decoration: none;
+  color: #090909;
+  padding: 8px 12px 8px 12px;
+}
+section a:hover {
+  color: rgb(59, 73, 223);
+  background-color: rgb(255, 255, 255);
+  border-radius: 0.375rem;
+}
+section .tarjeta1 {
+  border-radius: 0.375rem;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+}
+section .tarjeta1 img {
+  width: 100%;
+}
+section .tarjeta2 {
+  border-radius: 0.375rem;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  box-sizing: border-box;
+  padding: 20px;
+}
+section .tarjeta2 .contentcard2 {
+  width: 90%;
+}
+section .tarjeta2 .contentcard2 img {
+  width: 100%;
+  border-radius: 0.375rem;
+}
+section .tarjeta2 .contentcard2 p {
+  color: rgb(23, 23, 23);
+}
+section .tarjeta2 .contentcard2 a {
+  color: rgb(59, 73, 223);
+  padding: 0;
+  text-decoration: underline;
+  font-size: 1rem;
+  font-weight: bolder;
+}
+section .tarjeta2 .topcard2 {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+section .tarjeta2 .topcard2 .title {
+  color: rgb(92, 92, 92);
+}
+section .tarjeta2 .topcard2 .button {
+  font-weight: 900;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: rgb(245, 245, 245);
+}
+
+header {
+  width: 100%;
+  background-color: rgb(252, 214, 255);
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(41, 253, 246);
+  width: 80%;
+  height: 100%;
+}
+main #izquierda {
+  background-color: aqua;
+  flex: 20%;
+  padding: 20PX;
+}
+main #derecha {
+  background-color: aqua;
+  flex: 30%;
+  padding: 20PX;
+}/*# sourceMappingURL=main.css.map */
