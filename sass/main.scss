@@ -1,4 +1,7 @@
 @import "columnacentral";
+@import "columnaderecha";
+$bgcard: rgb(255,255,255);
+$bgcolormain:rgb(245,245,245);
 
 * {
     box-sizing: border-box;
@@ -28,8 +31,8 @@ main {
     font-size: 14px;
 
     #izquierda {
-        background-color: white;
-        flex: 20%;
+        background-color:$bgcolormain;
+        flex: 0%;
         align-items: center;
         text-align: center;
         justify-content: space-between;
@@ -37,11 +40,11 @@ main {
         font-size: 0.88rem;
     }
 
-    section {
+    /*section {
         flex: 50%;
         background-color: rgb(247, 158, 42);
         padding: 20px;
-    }
+    }*/
 
     #derecha {
         background-color: aqua;
@@ -55,10 +58,13 @@ main {
     
     .container{
         display: grid;
-        width: 96%;
+        width: 100%;
         margin: 0 auto;
         gap: 1.8rem;
         grid-template-columns: 12rem auto 23 rem;
+        justify-content: start;
+        font-size: 20px;
+        ;
 
     }
         
