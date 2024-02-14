@@ -1,7 +1,13 @@
+@import 'columnaDerecha';
 @import "columnacentral";
+<<<<<<< HEAD
 @import "columnaderecha";
 $bgcard: rgb(255,255,255);
 $bgcolormain:rgb(245,245,245);
+=======
+@import "estructura_sidebar" ;
+@import "navbar";
+>>>>>>> 1f96b88ec16d45542d18b32742dece517553dc2a
 
 * {
     box-sizing: border-box;
@@ -14,6 +20,9 @@ body {
     align-items: center;
     flex-direction: column;
     height: 100vh;
+}
+
+.headearNav {
     background-color: $bgcolormain;
 }
 
@@ -22,6 +31,32 @@ header {
     background-color: rgb(252, 214, 255);
 }
 
+main{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(41, 253, 246);
+    width: 90%;
+    height: 100vh;
+
+    #izquierda{
+        background-color: aqua;
+        flex: 20%;
+        padding: 20PX;
+    }
+
+    .secCentral{
+        flex: 50%;
+        background: rgb(247, 158, 42);
+        padding: 20PX;
+    }
+
+}
+
+@media screen and (min-width:1200px){
+    main{
+        width: 80%;
+    }
+}
 main {
     display: flex;
     flex-wrap: wrap;
@@ -40,7 +75,11 @@ main {
         font-size: 0.88rem;
     }
 
+<<<<<<< HEAD
     /*section {
+=======
+    section {
+>>>>>>> 1f96b88ec16d45542d18b32742dece517553dc2a
         flex: 50%;
         background-color: rgb(247, 158, 42);
         padding: 20px;
@@ -77,3 +116,5 @@ main {
 
 
 }
+
+

@@ -1,3 +1,127 @@
+<<<<<<< HEAD
+=======
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap";
+main .derecha {
+  display: none;
+}
+@media screen and (min-width: 992px) {
+  main .derecha {
+    display: block;
+    background: rgb(245, 245, 245);
+    flex: 30%;
+    padding: 20PX;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+  }
+  main .discuss1 {
+    width: 100%;
+    background: white;
+    color: rgb(64, 64, 64);
+    box-shadow: 0 0 0 1px rgba(23, 23, 23, 0.05);
+    border-radius: 0.375rem;
+    display: flex;
+    flex-direction: column;
+  }
+  main .watercooler2 {
+    width: 100%;
+    background: white;
+    color: rgb(64, 64, 64);
+    box-shadow: 0 0 0 1px rgba(23, 23, 23, 0.05);
+    border-radius: 0.375rem;
+    display: flex;
+    flex-direction: column;
+  }
+  main .headerD1 {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid rgb(245, 245, 245);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+  main .headerD1 h2 {
+    margin: 0;
+  }
+  main .headerD1 h2 .txt1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    font-weight: 700;
+    color: #242424;
+  }
+  main .headerD1 h2 .txt1:hover {
+    color: rgb(1, 1, 167);
+  }
+  main .headerD1 .txt2 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.75rem;
+    color: #575757;
+    margin: 0;
+  }
+  main .artLink {
+    padding: 1rem;
+    border-bottom: 1px solid rgb(245, 245, 245);
+  }
+  main .artLink h3 {
+    margin: 0;
+  }
+  main .artLink h3 .txt3 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    color: #242424;
+    font-size: 1rem;
+    margin: 0;
+  }
+  main .artLink h3 .txt3:hover {
+    color: rgb(1, 1, 167);
+  }
+  main .artLink .txt4 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #717171;
+    font-size: 0.875rem;
+    padding-top: 0.25rem;
+    margin: 0;
+  }
+  main .resources3 {
+    width: 100%;
+    padding: 0 16px 16px 16px;
+    margin: 8px 0 16px 0;
+    border-bottom: 1px solid rgb(116, 116, 116);
+  }
+  main .resources3 .headerD2 {
+    padding: 8px;
+  }
+  main .resources3 .headerD2 .txt5 {
+    font-size: 0.8em;
+    font-weight: bold;
+    font-family: "DM Mono", monospace;
+    margin: 0;
+  }
+  main .resources3 .artLink2 {
+    padding: 1rem;
+    border-bottom: 1px solid rgb(245, 245, 245);
+    color: rgb(64, 64, 64);
+    text-decoration: none;
+    text-align: left;
+    display: block;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+  }
+  main .resources3 .artLink2:hover {
+    background: white;
+    color: rgb(1, 1, 167);
+  }
+}
+
+>>>>>>> 1f96b88ec16d45542d18b32742dece517553dc2a
 section {
   font-family: Arial, Helvetica, sans-serif;
   flex: 50%;
@@ -23,12 +147,96 @@ section .tarjeta1 {
   width: 100%;
   background-color: rgb(255, 255, 255);
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-sizing: border-box;
+  padding: 20px;
 }
 section .tarjeta1 img {
   width: 100%;
 }
+<<<<<<< HEAD
 
 .tarjeta2 {
+=======
+section .tarjeta1 .headcard3 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border-radius: 0.375rem;
+}
+section .tarjeta1 .headcard3 .usrimg {
+  width: 2rem;
+  height: 2rem;
+}
+section .tarjeta1 .headcard3 .usrimg img {
+  width: 100%;
+  border-radius: 0.375rem;
+}
+section .tarjeta1 .headcard3 .usrtext {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  padding-left: 10px;
+  color: rgb(92, 92, 92);
+}
+section .tarjeta1 .posttext a {
+  padding-left: 20px;
+  font-size: 25px;
+  font-weight: bolder;
+}
+section .tarjeta1 .hashtag {
+  padding-left: 20px;
+}
+section .tarjeta1 .hashtag .top {
+  padding: 3px;
+}
+section .tarjeta1 .hashtag .top:hover {
+  padding: 3px;
+  background-color: rgba(111, 0, 139, 0.1);
+  border: 1px solid #6f008b;
+  color: rgb(23, 23, 23);
+}
+section .tarjeta1 .hashtag .top span {
+  color: #6f008b;
+}
+section .tarjeta1 .hashtag .discuss {
+  padding: 3px;
+}
+section .tarjeta1 .hashtag .discuss:hover {
+  padding: 3px;
+  background-color: rgba(252, 192, 40, 0.1);
+  border: 1px solid #fbc81f;
+  color: rgb(23, 23, 23);
+}
+section .tarjeta1 .hashtag .discuss span {
+  color: #fbc81f;
+}
+section .tarjeta1 .hashtag .music {
+  padding: 3px;
+}
+section .tarjeta1 .hashtag .music:hover {
+  padding: 3px;
+  background-color: rgba(252, 111, 40, 0.1);
+  border: 1px solid #fb4f1f;
+  color: rgb(23, 23, 23);
+}
+section .tarjeta1 .hashtag .music span {
+  color: #fb4f1f;
+}
+section .tarjeta1 .foot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 10px;
+  align-content: center;
+}
+section .tarjeta1 .foot .read {
+  color: rgb(92, 92, 92);
+}
+section .tarjeta2 {
+>>>>>>> 1f96b88ec16d45542d18b32742dece517553dc2a
   border-radius: 0.375rem;
   width: 100%;
   background-color: rgb(255, 255, 255);
@@ -68,8 +276,388 @@ section .tarjeta1 img {
 }
 .tarjeta2 .topcard2 .button {
   font-weight: 900;
+  padding: 0.25rem;
+}
+section .tarjeta2 .topcard2 .button:hover {
+  border-radius: 0.375rem;
+  background-color: rgb(245, 245, 245);
+  padding: 0.25rem;
+  cursor: pointer;
+}
+section .tarjeta3 {
+  border-radius: 0.375rem;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-sizing: border-box;
+  padding: 20px;
+}
+section .tarjeta3 .headcard3 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+section .tarjeta3 .headcard3 .usrimg {
+  width: 2rem;
+  height: 2rem;
+}
+section .tarjeta3 .headcard3 .usrimg img {
+  width: 100%;
+  border-radius: 0.375rem;
+}
+section .tarjeta3 .headcard3 .usrtext {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  padding-left: 10px;
+  color: rgb(92, 92, 92);
+}
+section .tarjeta3 .posttext a {
+  padding-left: 20px;
+  font-size: 25px;
+  font-weight: bolder;
+}
+section .tarjeta3 .hashtag {
+  padding-left: 20px;
+}
+section .tarjeta3 .hashtag .top {
+  padding: 3px;
+}
+section .tarjeta3 .hashtag .top:hover {
+  padding: 3px;
+  background-color: rgba(111, 0, 139, 0.1);
+  border: 1px solid #6f008b;
+  color: rgb(23, 23, 23);
+}
+section .tarjeta3 .hashtag .top span {
+  color: #6f008b;
+}
+section .tarjeta3 .hashtag .discuss {
+  padding: 3px;
+}
+section .tarjeta3 .hashtag .discuss:hover {
+  padding: 3px;
+  background-color: rgba(252, 192, 40, 0.1);
+  border: 1px solid #fbc81f;
+  color: rgb(23, 23, 23);
+}
+section .tarjeta3 .hashtag .discuss span {
+  color: #fbc81f;
+}
+section .tarjeta3 .hashtag .music {
+  padding: 3px;
+}
+section .tarjeta3 .hashtag .music:hover {
+  padding: 3px;
+  background-color: rgba(252, 111, 40, 0.1);
+  border: 1px solid #fb4f1f;
+  color: rgb(23, 23, 23);
+}
+section .tarjeta3 .hashtag .music span {
+  color: #fb4f1f;
+}
+section .tarjeta3 .foot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 10px;
+  align-content: center;
+}
+section .tarjeta3 .foot .read {
+  color: rgb(92, 92, 92);
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: gray;
+}
+
+/* .grid-container>* {
+    box-shadow: 10px 6px 37px -13px rgba(51, 51, 51, 0.74);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    font-weight: 500;
+} */
+.grid-container {
+  display: grid;
+  gap: 20px;
+  grid-template: "navbar" 40px "header" 40px "main" auto "sidebar" "footer";
+}
+.grid-container .header {
+  grid-area: header;
+  background-color: rgba(103, 93, 241, 0.74);
+}
+.grid-container .header .seccion1 {
+  background-color: white;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 4px;
+}
+.grid-container .header .liststyle {
+  list-style: none;
+}
+.grid-container .header .seccionLista1 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  background-color: whitesmoke;
+}
+.grid-container .header .icons {
+  display: flex;
+  padding: 0.5rem;
+  overflow-wrap: normal;
+  background-color: transparent;
+  position: relative;
+  border-radius: 10px;
+  font: inherit;
+  cursor: pointer;
+  outline: 0;
+  text-decoration: none;
+  max-width: 100%;
+  font-size: 1rem;
+}
+.grid-container .header .textIcons {
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  display: inline-flex;
+  flex-shrink: 0;
+  justify-content: flex-start;
+}
+.grid-container .header .seccionLista2 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  background-color: whitesmoke;
+}
+.grid-container .header .socialMedia {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 1rem;
+  background-color: whitesmoke;
+}
+.grid-container .header .popularTags {
+  max-height: 42vh;
+  overflow-y: scroll;
+  display: block;
+  background-color: whitesmoke;
+}
+.grid-container .header .seccionfinal {
+  background-color: white;
+  text-align: center;
+  border-radius: 15px;
+}
+.grid-container .titulo1 {
+  font-size: 15px;
+  margin-bottom: 1rem;
+}
+.grid-container .parrafo1 {
+  font-size: 11px;
+  margin-bottom: 1rem;
+}
+.grid-container .navbar {
+  grid-area: navbar;
+  background-color: rgba(179, 46, 241, 0.74);
+}
+.grid-container .sidebar {
+  grid-area: sidebar;
+  background-color: rgba(77, 237, 106, 0.74);
+}
+.grid-container .main {
+  grid-area: main;
+  background-color: #f5f5f5;
+}
+.grid-container .footer {
+  grid-area: footer;
+  background-color: rgba(237, 123, 67, 0.74);
+}
+@media (min-width: 768px) {
+  .grid-container {
+    grid-template: "navbar navbar" 40px "header header" 40px "sidebar main" auto "footer footer" 50px/200px auto;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+@media (min-width: 992px) {
+  .grid-container {
+    grid-template: "navbar navbar navbar" 60px "header main sidebar" auto "footer footer footer" 80px/200px auto 200px;
+  }
+}
+@media (min-width: 1440px) {
+  .grid-container {
+    grid-template: "navbar navbar navbar navbar" 50px "header main sidebar" auto "footer footer footer footer" 60px/200px auto 200px;
+  }
+}
+
+.nav-container {
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  padding-bottom: 20px;
+  top: 0;
+}
+
+.left-sideNav {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: flex-start;
+}
+
+.left-sideNav .left-sideNav li {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.right-sideNav {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.right-sideNav .right-sideNav li {
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  flex: 1 1 auto;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.logo .imagenLogo {
+  -o-object-fit: contain;
+  object-fit: contain;
+  width: 50px;
+  max-width: 100%;
+}
+
+.container-busqueda {
+  display: flex;
+  flex: 1 auto auto;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 600px;
+  min-width: none;
+  height: 35px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: white;
+  margin-left: 10px;
+}
+
+.campoBusqueda {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputbusqueda {
+  display: flex;
+  justify-content: flex-start;
+  border: 0;
+  width: 400px;
+  height: 30px;
+  left: 0px;
+  border-color: transparent;
+}
+
+button {
+  display: flex;
+  position: relative;
+  border-radius: 5px;
+  border: 0;
+  background-color: transparent;
+  height: 24px;
+  width: 40px;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 83px;
+  height: 40px;
+  border-radius: 10xp;
+  color: black;
+}
+
+.login a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: black;
+}
+
+.createAccount {
+  display: flex;
+  flex: 1 1 auto;
+  align-items: center;
+  justify-items: center;
+  margin-left: 10px;
+  max-width: 145px;
+  height: 40px;
+  border: 1px solid rgb(57, 73, 223);
+  border-radius: 10px;
+  text-decoration: none;
+  color: rgb(57, 73, 223);
+}
+
+.createAccount a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+.createAccount:hover {
+  background-color: rgb(57, 73, 223);
+}
+
+.login:hover {
+  background-color: rgb(235, 236, 253);
+  border-radius: 10px;
+}
+
+button svg {
+  height: 30px;
+  width: 30px;
+}
+
+button svg:hover {
+  background-color: rgb(235, 236, 253);
+  height: 30px;
+  width: 35px;
+  border-radius: 10px;
+}
+
+<<<<<<< HEAD
 aside {
   font-family: Arial, Helvetica, sans-serif;
   padding: 40PX;
@@ -124,6 +712,8 @@ aside .botones {
   border: none;
 }
 
+=======
+>>>>>>> 1f96b88ec16d45542d18b32742dece517553dc2a
 * {
   box-sizing: border-box;
 }
@@ -135,6 +725,9 @@ body {
   align-items: center;
   flex-direction: column;
   height: 100vh;
+}
+
+.headearNav {
   background-color: rgb(245, 245, 245);
 }
 
@@ -143,6 +736,29 @@ header {
   background-color: rgb(252, 214, 255);
 }
 
+main {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(41, 253, 246);
+  width: 90%;
+  height: 100vh;
+}
+main #izquierda {
+  background-color: aqua;
+  flex: 20%;
+  padding: 20PX;
+}
+main .secCentral {
+  flex: 50%;
+  background: rgb(247, 158, 42);
+  padding: 20PX;
+}
+
+@media screen and (min-width: 1200px) {
+  main {
+    width: 80%;
+  }
+}
 main {
   display: flex;
   flex-wrap: wrap;
@@ -165,6 +781,14 @@ main #izquierda {
   padding: 20px;
   font-size: 0.88rem;
 }
+<<<<<<< HEAD
+=======
+main section {
+  flex: 50%;
+  background-color: rgb(247, 158, 42);
+  padding: 20px;
+}
+>>>>>>> 1f96b88ec16d45542d18b32742dece517553dc2a
 main #derecha {
   background-color: aqua;
   flex: 30%;

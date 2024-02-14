@@ -30,8 +30,91 @@ section {
         width:100%;
         background-color: $bgcard;
         overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        box-sizing: border-box;
+        padding: 20px;
         img {
             width: 100%;
+        }
+        .headcard3 {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            border-radius: $radius;
+            
+            .usrimg {
+                width: 2rem;
+                height: 2rem;
+                img {
+                    width: 100%;
+                    border-radius: $radius;
+                }
+            }
+            .usrtext {
+                display:flex;
+                flex-direction: column;
+                font-size: 12px;
+                padding-left: 10px;
+                color: $titlecolor;
+            }   
+        }
+        .posttext {
+                a {
+                    padding-left: 20px;
+                    font-size: 25px;
+                    font-weight: bolder;
+                }    
+        }
+        .hashtag {
+            padding-left: 20px;
+            .top {
+                padding: 3px;
+                &:hover {
+                    padding: 3px;
+                    background-color: rgba(111, 0, 139, 0.10);
+                    border: 1px solid #6f008b;
+                    color: $textsecond;
+                }
+                span {
+                    color: #6f008b;
+                }
+            }
+            .discuss {
+                padding: 3px;
+                &:hover {
+                    padding: 3px;
+                    background-color: rgba(252, 192, 40, 0.1);
+                    border: 1px solid #fbc81f;
+                    color: $textsecond;
+                }
+                span {
+                    color: #fbc81f;
+                }
+            }
+            .music {
+                padding: 3px;
+                &:hover {
+                    padding: 3px;
+                    background-color: rgba(252, 111, 40, 0.1);
+                    border: 1px solid #fb4f1f;
+                    color: $textsecond;
+                }
+                span {
+                    color: #fb4f1f;
+                }
+            }
+        }
+        .foot {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding-left: 10px;
+            align-content: center;
+            .read {
+                color: $titlecolor;
+            }
         }
     }
     
@@ -74,12 +157,114 @@ section {
             }
             .button {
                 font-weight: 900;
+<<<<<<< HEAD
                 
+=======
+                padding: .25rem;
+                &:hover {
+                    border-radius: $radius;
+                    background-color: $bgcolormain;
+                    padding: .25rem;
+                    cursor: pointer;
+                }
+>>>>>>> 1f96b88ec16d45542d18b32742dece517553dc2a
             }
             
         }
         
     }
+<<<<<<< HEAD
     
             
 
+=======
+    .tarjeta3 {
+        border-radius: $radius;
+        width:100%;
+        background-color: $bgcard;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        box-sizing: border-box;
+        padding: 20px;
+        .headcard3 {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            
+            .usrimg {
+                width: 2rem;
+                height: 2rem;
+                img {
+                    width: 100%;
+                    border-radius: $radius;
+                }
+            }
+            .usrtext {
+                display:flex;
+                flex-direction: column;
+                font-size: 12px;
+                padding-left: 10px;
+                color: $titlecolor;
+            }   
+        }
+        .posttext {
+                a {
+                    padding-left: 20px;
+                    font-size: 25px;
+                    font-weight: bolder;
+                }    
+        }
+        .hashtag {
+            padding-left: 20px;
+            .top {
+                padding: 3px;
+                &:hover {
+                    padding: 3px;
+                    background-color: rgba(111, 0, 139, 0.10);
+                    border: 1px solid #6f008b;
+                    color: $textsecond;
+                }
+                span {
+                    color: #6f008b;
+                }
+            }
+            .discuss {
+                padding: 3px;
+                &:hover {
+                    padding: 3px;
+                    background-color: rgba(252, 192, 40, 0.1);
+                    border: 1px solid #fbc81f;
+                    color: $textsecond;
+                }
+                span {
+                    color: #fbc81f;
+                }
+            }
+            .music {
+                padding: 3px;
+                &:hover {
+                    padding: 3px;
+                    background-color: rgba(252, 111, 40, 0.1);
+                    border: 1px solid #fb4f1f;
+                    color: $textsecond;
+                }
+                span {
+                    color: #fb4f1f;
+                }
+            }
+        }
+        .foot {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding-left: 10px;
+            align-content: center;
+            .read {
+                color: $titlecolor;
+            }
+        }
+    }
+}
+>>>>>>> 1f96b88ec16d45542d18b32742dece517553dc2a

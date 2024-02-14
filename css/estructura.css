@@ -10,16 +10,16 @@ body {
   font-size: 1.2rem;
   min-height: 100vh;
   padding: 20px;
+  background-color: gray;
 }
 
-.grid-container > * {
-  box-shadow: 10px 6px 37px -13px rgba(51, 51, 51, 0.74);
-  border-radius: 10px;
-  padding: 10px;
-  text-align: center;
-  font-weight: 500;
-}
-
+/* .grid-container>* {
+    box-shadow: 10px 6px 37px -13px rgba(51, 51, 51, 0.74);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    font-weight: 500;
+} */
 .grid-container {
   display: grid;
   gap: 20px;
@@ -29,17 +29,74 @@ body {
   grid-area: header;
   background-color: rgba(103, 93, 241, 0.74);
 }
+.grid-container .header .seccion1 {
+  background-color: white;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 4px;
+}
 .grid-container .header .liststyle {
   list-style: none;
 }
+.grid-container .header .seccionLista1 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  background-color: whitesmoke;
+}
+.grid-container .header .icons {
+  display: flex;
+  padding: 0.5rem;
+  overflow-wrap: normal;
+  background-color: transparent;
+  position: relative;
+  border-radius: 10px;
+  font: inherit;
+  cursor: pointer;
+  outline: 0;
+  text-decoration: none;
+  max-width: 100%;
+  font-size: 1rem;
+}
+.grid-container .header .textIcons {
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  display: inline-flex;
+  flex-shrink: 0;
+  justify-content: flex-start;
+}
+.grid-container .header .seccionLista2 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  background-color: whitesmoke;
+}
+.grid-container .header .socialMedia {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 1rem;
+  background-color: whitesmoke;
+}
+.grid-container .header .popularTags {
+  max-height: 42vh;
+  overflow-y: scroll;
+  display: block;
+  background-color: whitesmoke;
+}
+.grid-container .header .seccionfinal {
+  background-color: white;
+  text-align: center;
+  border-radius: 15px;
+}
 .grid-container .titulo1 {
   font-size: 15px;
-}
-.grid-container .titulo2 {
-  font-size: 10px;
+  margin-bottom: 1rem;
 }
 .grid-container .parrafo1 {
   font-size: 11px;
+  margin-bottom: 1rem;
 }
 .grid-container .navbar {
   grid-area: navbar;
