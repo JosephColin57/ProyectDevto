@@ -1,3 +1,4 @@
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap";
 section {
   font-family: Arial, Helvetica, sans-serif;
   flex: 50%;
@@ -243,6 +244,293 @@ section .tarjeta3 .foot .read {
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: gray;
+}
+
+/* .grid-container>* {
+    box-shadow: 10px 6px 37px -13px rgba(51, 51, 51, 0.74);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    font-weight: 500;
+} */
+.grid-container {
+  display: grid;
+  gap: 20px;
+  grid-template: "navbar" 40px "header" 40px "main" auto "sidebar" "footer";
+}
+.grid-container .header {
+  grid-area: header;
+  background-color: rgba(103, 93, 241, 0.74);
+}
+.grid-container .header .seccion1 {
+  background-color: white;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 4px;
+}
+.grid-container .header .liststyle {
+  list-style: none;
+}
+.grid-container .header .seccionLista1 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  background-color: whitesmoke;
+}
+.grid-container .header .icons {
+  display: flex;
+  padding: 0.5rem;
+  overflow-wrap: normal;
+  background-color: transparent;
+  position: relative;
+  border-radius: 10px;
+  font: inherit;
+  cursor: pointer;
+  outline: 0;
+  text-decoration: none;
+  max-width: 100%;
+  font-size: 1rem;
+}
+.grid-container .header .textIcons {
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  display: inline-flex;
+  flex-shrink: 0;
+  justify-content: flex-start;
+}
+.grid-container .header .seccionLista2 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  background-color: whitesmoke;
+}
+.grid-container .header .socialMedia {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 1rem;
+  background-color: whitesmoke;
+}
+.grid-container .header .popularTags {
+  max-height: 42vh;
+  overflow-y: scroll;
+  display: block;
+  background-color: whitesmoke;
+}
+.grid-container .header .seccionfinal {
+  background-color: white;
+  text-align: center;
+  border-radius: 15px;
+}
+.grid-container .titulo1 {
+  font-size: 15px;
+  margin-bottom: 1rem;
+}
+.grid-container .parrafo1 {
+  font-size: 11px;
+  margin-bottom: 1rem;
+}
+.grid-container .navbar {
+  grid-area: navbar;
+  background-color: rgba(179, 46, 241, 0.74);
+}
+.grid-container .sidebar {
+  grid-area: sidebar;
+  background-color: rgba(77, 237, 106, 0.74);
+}
+.grid-container .main {
+  grid-area: main;
+  background-color: #f5f5f5;
+}
+.grid-container .footer {
+  grid-area: footer;
+  background-color: rgba(237, 123, 67, 0.74);
+}
+@media (min-width: 768px) {
+  .grid-container {
+    grid-template: "navbar navbar" 40px "header header" 40px "sidebar main" auto "footer footer" 50px/200px auto;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+@media (min-width: 992px) {
+  .grid-container {
+    grid-template: "navbar navbar navbar" 60px "header main sidebar" auto "footer footer footer" 80px/200px auto 200px;
+  }
+}
+@media (min-width: 1440px) {
+  .grid-container {
+    grid-template: "navbar navbar navbar navbar" 50px "header main sidebar" auto "footer footer footer footer" 60px/200px auto 200px;
+  }
+}
+
+.nav-container {
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  padding-bottom: 20px;
+  top: 0;
+}
+
+.left-sideNav {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: flex-start;
+}
+
+.left-sideNav .left-sideNav li {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.right-sideNav {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.right-sideNav .right-sideNav li {
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  flex: 1 1 auto;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.logo .imagenLogo {
+  -o-object-fit: contain;
+  object-fit: contain;
+  width: 50px;
+  max-width: 100%;
+}
+
+.container-busqueda {
+  display: flex;
+  flex: 1 auto auto;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 600px;
+  min-width: none;
+  height: 35px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: white;
+  margin-left: 10px;
+}
+
+.campoBusqueda {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputbusqueda {
+  display: flex;
+  justify-content: flex-start;
+  border: 0;
+  width: 400px;
+  height: 30px;
+  left: 0px;
+  border-color: transparent;
+}
+
+button {
+  display: flex;
+  position: relative;
+  border-radius: 5px;
+  border: 0;
+  background-color: transparent;
+  height: 24px;
+  width: 40px;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 83px;
+  height: 40px;
+  border-radius: 10xp;
+  color: black;
+}
+
+.login a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: black;
+}
+
+.createAccount {
+  display: flex;
+  flex: 1 1 auto;
+  align-items: center;
+  justify-items: center;
+  margin-left: 10px;
+  max-width: 145px;
+  height: 40px;
+  border: 1px solid rgb(57, 73, 223);
+  border-radius: 10px;
+  text-decoration: none;
+  color: rgb(57, 73, 223);
+}
+
+.createAccount a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+.createAccount:hover {
+  background-color: rgb(57, 73, 223);
+}
+
+.login:hover {
+  background-color: rgb(235, 236, 253);
+  border-radius: 10px;
+}
+
+button svg {
+  height: 30px;
+  width: 30px;
+}
+
+button svg:hover {
+  background-color: rgb(235, 236, 253);
+  height: 30px;
+  width: 35px;
+  border-radius: 10px;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 body {
@@ -266,14 +554,37 @@ main {
   background-color: rgb(41, 253, 246);
   width: 80%;
   height: 100%;
+  font-size: 14px;
 }
 main #izquierda {
-  background-color: aqua;
+  background-color: white;
   flex: 20%;
-  padding: 20PX;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  padding: 20px;
+  font-size: 0.88rem;
+}
+main section {
+  flex: 50%;
+  background-color: rgb(247, 158, 42);
+  padding: 20px;
 }
 main #derecha {
   background-color: aqua;
   flex: 30%;
-  padding: 20PX;
+  padding: 20px;
+}
+main a {
+  color: black;
+}
+main .container {
+  display: grid;
+  width: 96%;
+  margin: 0 auto;
+  gap: 1.8rem;
+  grid-template-columns: 12rem auto 23 rem;
+}
+main ul {
+  list-style: none;
 }/*# sourceMappingURL=main.css.map */
