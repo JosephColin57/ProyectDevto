@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    background-color: rgb(252, 214, 255);
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(41, 253, 246);
+    width: 80%;
+    height: 100%;
+
+    #izquierda {
+        background-color: aqua;
+        flex: 20%;
+        padding: 20PX;
+    }
+
+    section {
+        flex: 50%;
+        background-color: rgb(247, 158, 42);
+        padding: 20PX;
+    }
+
+    #derecha {
+        background-color: aqua;
+        flex: 30%;
+        padding: 20PX;  
+    }
+}
+@import "navbar";
