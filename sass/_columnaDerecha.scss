@@ -10,12 +10,13 @@ main{
         .derecha{
             display: block;
             background: rgb(245, 245, 245);
-            flex: 30%;
+            flex: 25%;
             padding: 20PX;
             display: flex;
             flex-direction: column;
             justify-content: center;
             gap: 1rem;
+            margin-left: -10px;
         }
         .discuss1{
             width: 100%;

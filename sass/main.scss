@@ -1,0 +1,99 @@
+@import 'columnaDerecha';
+@import "columnacentral";
+@import "estructura_sidebar" ;
+@import "navbar";
+@import "responsividad";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color:$bgcolormain;
+}
+
+.headearNav {
+    background-color: $bgcolormain;
+}
+
+header {
+    width: 100%;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 100vh;
+    padding-top: 70px;
+
+    .izquierda{
+        flex: 10%;
+        padding: 20PX;
+    }
+
+    .secCentral{
+        flex: 50%;
+       
+        padding: 20PX;
+    }
+
+}
+
+/*@media screen and (min-width:1200px){
+    main{
+        width: 80%;
+    } 
+}*/
+main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+
+    #izquierda {
+        background-color: $bgcolormain;
+        flex: 20%;
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+        padding: 20px;
+        font-size: 0.88rem;
+        margin-right: -90px;
+    }
+
+    section {
+        flex: 50%;
+        padding: 20px;
+    }
+
+       
+    a{
+        color: black;
+    }
+    
+    .container{
+        display: grid;
+        width: 96%;
+        margin: 0 auto;
+        gap: 1.8rem;
+        grid-template-columns: 12rem auto 23 rem;
+
+    }
+        
+
+   ul{
+    list-style: none;
+   }
+
+    
+
+
+}
