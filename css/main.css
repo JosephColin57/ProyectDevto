@@ -131,6 +131,65 @@ body {
     grid-template: "navbar navbar navbar navbar" 50px "header main sidebar" auto "footer footer footer footer" 60px/200px auto 200px;
   }
 }
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header {
+  width: 100%;
+  background-color: rgb(252, 214, 255);
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(41, 253, 246);
+  width: 80%;
+  height: 100%;
+  font-size: 14px;
+}
+main #izquierda {
+  background-color: white;
+  flex: 20%;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  padding: 20px;
+  font-size: 0.88rem;
+}
+main section {
+  flex: 50%;
+  background-color: rgb(247, 158, 42);
+  padding: 20px;
+}
+main #derecha {
+  background-color: aqua;
+  flex: 30%;
+  padding: 20px;
+}
+main a {
+  color: black;
+}
+main .container {
+  display: grid;
+  width: 96%;
+  margin: 0 auto;
+  gap: 1.8rem;
+  grid-template-columns: 12rem auto 23 rem;
+}
+main ul {
+  list-style: none;
+  padding: 20PX;
+}
 
 .nav-container {
   background-color: white;
@@ -284,63 +343,4 @@ button svg:hover {
   height: 30px;
   width: 35px;
   border-radius: 10px;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  height: 100vh;
-}
-
-header {
-  width: 100%;
-  background-color: rgb(252, 214, 255);
-}
-
-main {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: rgb(41, 253, 246);
-  width: 80%;
-  height: 100%;
-  font-size: 14px;
-}
-main #izquierda {
-  background-color: white;
-  flex: 20%;
-  align-items: center;
-  text-align: center;
-  justify-content: space-between;
-  padding: 20px;
-  font-size: 0.88rem;
-}
-main section {
-  flex: 50%;
-  background-color: rgb(247, 158, 42);
-  padding: 20px;
-}
-main #derecha {
-  background-color: aqua;
-  flex: 30%;
-  padding: 20px;
-}
-main a {
-  color: black;
-}
-main .container {
-  display: grid;
-  width: 96%;
-  margin: 0 auto;
-  gap: 1.8rem;
-  grid-template-columns: 12rem auto 23 rem;
-}
-main ul {
-  list-style: none;
 }/*# sourceMappingURL=main.css.map */
