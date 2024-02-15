@@ -2,6 +2,7 @@
 @import "columnacentral";
 @import "estructura_sidebar" ;
 @import "navbar";
+@import "responsividad";
 
 * {
     box-sizing: border-box;
@@ -14,6 +15,7 @@ body {
     align-items: center;
     flex-direction: column;
     height: 100vh;
+    background-color:$bgcolormain;
 }
 
 .headearNav {
@@ -22,64 +24,56 @@ body {
 
 header {
     width: 100%;
-    background-color: rgb(252, 214, 255);
 }
 
 main{
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(41, 253, 246);
     width: 90%;
     height: 100vh;
+    padding-top: 70px;
 
-    #izquierda{
-        background-color: aqua;
-        flex: 20%;
+    .izquierda{
+        flex: 10%;
         padding: 20PX;
     }
 
     .secCentral{
         flex: 50%;
-        background: rgb(247, 158, 42);
+       
         padding: 20PX;
     }
 
 }
 
-@media screen and (min-width:1200px){
+/*@media screen and (min-width:1200px){
     main{
         width: 80%;
-    }
-}
+    } 
+}*/
 main {
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(41, 253, 246);
-    width: 80%;
+    width: 100%;
     height: 100%;
     font-size: 14px;
 
     #izquierda {
-        background-color: white;
+        background-color: $bgcolormain;
         flex: 20%;
         align-items: center;
         text-align: center;
         justify-content: space-between;
         padding: 20px;
         font-size: 0.88rem;
+        margin-right: -90px;
     }
 
     section {
         flex: 50%;
-        background-color: rgb(247, 158, 42);
         padding: 20px;
     }
 
-    #derecha {
-        background-color: aqua;
-        flex: 30%;
-        padding: 20px;  
-    }
        
     a{
         color: black;
@@ -103,5 +97,3 @@ main {
 
 
 }
-
-
