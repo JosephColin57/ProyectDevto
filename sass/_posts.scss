@@ -1,0 +1,237 @@
+.posts {
+   flex: 4;
+   padding: 10px 15px;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+
+   nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+      form {
+         display: flex;
+         align-items: center;
+         input {
+            cursor:pointer;
+            background-color: #fff;
+            border: 1.5px solid rgb(212, 212, 212);
+            color: rgb(23, 23, 23);
+            appearance: none;
+            -webkit-appearance: none;
+            border-radius: $border-radius-1;
+            line-height: 1.5;
+            padding: calc(0.5em - 1.5px) 0.5em;
+            font-family: inherit;
+            font-size: 1rem;
+            width: 100%;
+            resize: vertical;
+         }
+   
+         button[type="submit"] {
+            padding: 0.5rem;
+            cursor: pointer;
+            border: none;
+            border-radius: $border-radius-1;
+            background-color: transparent;
+            &:hover {
+               background-color: rgba($blue-700, 0.1);
+               fill: $blue-700;
+            }
+         }
+      }
+   }
+}
+
+.tag-header {
+   background-color: none;
+   overflow: hidden;
+   border-radius: $border-radius-1;
+   &:hover {
+      color: rgba($blue-700, 1);
+      background-color: white;
+      cursor: pointer;
+   }
+}
+
+.post-section {
+   margin: 0 0 0.5rem 0;
+   padding: 1rem;
+
+      &:hover {
+         cursor: pointer;
+      }
+
+   .post-title {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      padding-bottom: 5px;
+      gap: 10px;
+
+      .post-author { 
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         width: 100%;
+
+         .mainContainer{
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+
+            & .avatar {
+               border-radius: $border-radius-50;
+               height: 40px;
+               aspect-ratio: 1;
+            }
+         }
+
+         .buttonsContainer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+
+            & .editButton {
+               align-self: flex-end;
+               padding: 0.5rem ;
+               color: rgba($blue-700, 1);
+               border: 1px solid rgba($blue-700, 1);
+               text-decoration: none;
+               border-radius: $border-radius-1;
+               &:hover {
+               text-decoration: underline;
+               color: white;
+               background-color: rgba($blue-700, 1);
+               cursor: pointer;
+               }
+            }
+            & .deleteButton {
+               align-self: flex-end;
+               padding: 0.5rem ;
+               color: rgb(255, 113, 113);
+               border: 1px solid rgb(255, 113, 113);
+               text-decoration: none;
+               border-radius: $border-radius-1;
+
+               &:hover {
+               text-decoration: underline;
+               color: white;
+               background-color: rgb(255, 113, 113);
+               cursor: pointer;
+               }
+            }
+         }
+
+         &:hover {
+            cursor: pointer;
+         }
+      }
+
+      .post-title-info {
+         font-size: 0.8rem;
+         color: rgba($state-700, 1);
+
+         & :nth-child(1){
+            font-weight: bold;
+         }
+
+         &:hover {
+            cursor: pointer;
+         }
+      }
+   }
+   
+   .post-indention {
+      .title {
+         font-weight: 700;
+         padding: 0.2rem;
+         font-size: 1.25rem;
+      }
+      .title:hover {
+         cursor: pointer;
+         color: $blue-700;
+      }
+      .bottom {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         font-size: 0.8rem;
+         .details {
+            display: flex;
+            height: 36px;
+            .reactions {
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               height: 100%;
+               padding: 0.25rem;
+                  & section {
+                     display: flex;
+                     align-items: center;
+                     justify-content: center;
+                     gap: 5px;
+                     font-size: 15px;
+                  }
+
+               .reactions-icons {
+                  display: flex;
+                  flex-direction: row-reverse;
+                  align-items: center;
+                  .reaction-icon {
+                     display: flex;
+                     background-color: $gray-100;
+                     border: 2px solid white;
+                     border-radius: $border-radius-50;
+                     margin-right: -0.75rem;
+                     overflow: hidden;
+                  }
+               }
+               .reactions-counter {
+                  display: flex;
+                  flex-wrap: wrap;
+                  align-items: center;
+                  padding: 0 0.4rem;
+               }
+            }
+
+            .reactions:hover {
+               cursor: pointer;
+               background-color: $gray-100;
+            }
+            .comments {
+               display: flex;
+               align-items: center;
+               height: 100%;
+               margin: 0;
+               padding: 0.25rem 0.75rem;
+            }
+            .comments:hover {
+               cursor: pointer;
+               background-color: $gray-100;
+            }
+         }
+         .save {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 15px;
+            .icon {
+               padding: 0.4rem;
+               margin-left: 0.4rem;
+               border-radius: $border-radius-1;
+
+               &:hover {
+                  cursor: pointer;
+                  background-color: $indigo-50;
+               }
+            }
+         }
+      }
+   }
+}
+.icon-bookmark:hover {
+   fill: rgba($blue-700, 1);
+}
