@@ -1,0 +1,126 @@
+<div class="crayons-story__body">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+          <a class="crayons-logo crayons-logo--l" href="/buildwebcrumbs">
+            <img alt="Webcrumbs logo" src="https://media.dev.to/cdn-cgi/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F8638%2F81e019e1-97fc-4660-87e6-568993e16227.jpg" class="crayons-logo__image" loading="lazy">
+          </a>
+
+          <a href="/pachicodes" class="crayons-avatar  crayons-avatar--s absolute -right-2 -bottom-2 border-solid border-2 border-base-inverted  ">
+            <img src="https://media.dev.to/cdn-cgi/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F180359%2F3a3972ff-2ce3-46b1-b864-30c40dee082a.jpg" alt="pachicodes profile" class="crayons-avatar__image" loading="lazy">
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="/pachicodes" class="crayons-story__secondary fw-medium m:hidden">
+              Pachi 🥑 
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-1902696" aria-controls="story-author-preview-content-1902696" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Pachi 🥑  profile details" aria-expanded="false" aria-haspopup="true" data-initialized="true">
+                Pachi 🥑 
+              </button>
+              <div id="story-author-preview-content-1902696" class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0 reverse" style="border-top-color: var(--card-color); --card-color: #90bc44;" data-repositioning-dropdown="true" data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="/pachicodes" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img src="https://media.dev.to/cdn-cgi/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F180359%2F3a3972ff-2ce3-46b1-b864-30c40dee082a.jpg" class="crayons-avatar__image" alt="" loading="lazy">
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Pachi 🥑 </span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100" data-info="{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:180359,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Pachi 🥑 &quot;}" data-fetched="fetched" aria-label="Follow user: Pachi 🥑 " aria-pressed="false">Follow</button>
+                  </div>
+                  <div class="color-base-70">👩🏼‍💻Developer Relations Leadt &amp; Tech Community Manager @WebCrumbs,
+🎴Tarot Reader,
+🐈‍⬛️Cat Mom,
+🔥Chaotic Good.</div><div class="user-metadata-details"><ul class="user-metadata-details-inner"><li><div class="key">Work</div><div class="value">Developer Relations Lead @WebCrumbs</div></li><li><div class="key">Location</div><div class="value">Brasil</div></li><li><div class="key">Joined</div><div class="value"><time datetime="2019-06-13T21:00:44Z" class="date">13 de junio de 2019</time></div></li></ul></div>
+                </div>
+              </div>
+            </div>
+
+            <span>
+              <span class="crayons-story__tertiary fw-normal"> for </span><a href="/buildwebcrumbs" class="crayons-story__secondary fw-medium">Webcrumbs</a>
+            </span>
+          </div>
+          <a href="/buildwebcrumbs/what-plugins-do-you-dream-of-2cac" class="crayons-story__tertiary fs-xs"><time datetime="2024-06-27T14:03:58Z" title="jueves, 27 de junio de 2024, 8:03:58 a.m.">Jun 27</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1719497038"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title">
+        <a href="/buildwebcrumbs/what-plugins-do-you-dream-of-2cac" data-preload-image="https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fa5bw0pql1f44a67fjo39.png" id="article-link-1902696">
+          What plugins do you dream of?
+        </a>
+      </h2>
+      <div class="crayons-story__tags">
+          <a class="crayons-tag crayons-tag--filled  " style="
+        --tag-bg: rgba(113, 234, 139, 0.10);
+        --tag-prefix: #71EA8B;
+        --tag-bg-hover: rgba(113, 234, 139, 0.10);
+        --tag-prefix-hover: #71EA8B;
+      " href="/t/discuss"><span class="crayons-tag__prefix">#</span>discuss</a>
+          <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(247, 223, 30, 0.10);
+        --tag-prefix: #f7df1e;
+        --tag-bg-hover: rgba(247, 223, 30, 0.10);
+        --tag-prefix-hover: #f7df1e;
+      " href="/t/javascript"><span class="crayons-tag__prefix">#</span>javascript</a>
+          <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(86, 39, 101, 0.10);
+        --tag-prefix: #562765;
+        --tag-bg-hover: rgba(86, 39, 101, 0.10);
+        --tag-prefix-hover: #562765;
+      " href="/t/webdev"><span class="crayons-tag__prefix">#</span>webdev</a>
+      </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+          <a href="/buildwebcrumbs/what-plugins-do-you-dream-of-2cac" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count="" data-reactable-id="1902696" aria-label="Add a comment to post - What plugins do you dream of?">
+            <div class="multiple_reactions_aggregate">
+              <span class="multiple_reactions_icons_container" dir="rtl">
+                  <span class="crayons_icon_container">
+                    <img src="https://dev.to/assets/fire-f60e7a582391810302117f987b22a8ef04a2fe0df7e3258a5f49332df1cec71e.svg" width="18" height="18">
+                  </span>
+                  <span class="crayons_icon_container">
+                    <img src="https://dev.to/assets/raised-hands-74b2099fd66a39f2d7eed9305ee0f4553df0eb7b4f11b01b6b1b499973048fe5.svg" width="18" height="18">
+                  </span>
+                  <span class="crayons_icon_container">
+                    <img src="https://dev.to/assets/exploding-head-daceb38d627e6ae9b730f36a1e390fca556a4289d5a41abb2c35068ad3e2c4b5.svg" width="18" height="18">
+                  </span>
+                  <span class="crayons_icon_container">
+                    <img src="https://dev.to/assets/multi-unicorn-b44d6f8c23cdd00964192bedc38af3e82463978aa611b4365bd33a0f1f4f3e97.svg" width="18" height="18">
+                  </span>
+                  <span class="crayons_icon_container">
+                    <img src="https://dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18">
+                  </span>
+              </span>
+              <span class="aggregate_reactions_counter">44<span class="hidden s:inline">&nbsp;reactions</span></span>
+            </div>
+          </a>
+            <a href="/buildwebcrumbs/what-plugins-do-you-dream-of-2cac#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - What plugins do you dream of?">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a133aom4kw828qqclby91dwuk8fny8ab" class="crayons-icon"><title id="a133aom4kw828qqclby91dwuk8fny8ab">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              3<span class="hidden s:inline">&nbsp;comments</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            2 min read
+          </small>
+            <button type="button" id="article-save-button-1902696" class="c-btn c-btn--icon-alone bookmark-button" data-reactable-id="1902696" data-article-author-id="180359" aria-label="Save post What plugins do you dream of? to reading list" title="Save post What plugins do you dream of? to reading list" data-save-initialized="true">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>

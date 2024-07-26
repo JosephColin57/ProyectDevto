@@ -44,7 +44,7 @@ let savePost = document.getElementById('save-post')
 
 savePost.addEventListener("click", async () => {
   let inputs = document.querySelectorAll('#create-post input')
-  
+
   let postObject = {}
 
   inputs.forEach(({name, value}) => {
@@ -70,21 +70,47 @@ const dataPost = async (postObject) => {
 /* Traer informacion de base de datos */
 
 const getPost = async () => {
-  let response = await fetch(
-    `${urlData}/.json`)
-  let posts = await response.json();
-  console.log(posts)
+ const response = await fetch(`${urlData}/posts`, {
+   method: "GET",
+ });
 
-  let keys = Object.keys(posts);
-  console.log(keys)
+ const json = await response.json();
 
-  let postArray = keys.map((key) => {
-    return { ...posts[key], key }
-  })
-  console.log(postArray)
-  return postArray
+ return json.data.posts;
+ console.log(json.data.posts);
 };
+
+const editPostById = async (koderKey, newData) => {
+  let response = await fetch(
+    `${urlData}/${koderKey}/.json`,
+    {
+      method: "PUT",
+      body: JSON.stringify(newData),
+    }
+  );
+
+  let data = await response.json();
+  console.log(data);
+  return data
+};
+
+const deletePostById = async (koderKey) => {
+  let response = await fetch(
+    `${urlData}/${koderKey}/.json`,
+    {
+      method: "DELETE",
+    }
+  );
+  let data = await response.json();
+  console.log(data);
+  return data
+};
+
 
 getPost()
 
 export {getPost, dataPost}
+
+let cardImage = document.createElement("img");
+    cardImage.setAttribute("src", imagen);
+    cardImage.classList.add("blog-card__card-img");

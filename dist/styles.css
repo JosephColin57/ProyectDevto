@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 /* Size radius */
+
 /* Colors */
+
 * {
   margin: 0;
   padding: 0;
@@ -14,6 +17,7 @@ body {
 ul {
   list-style: none;
 }
+
 ul li {
   margin: 0 0.4rem;
 }
@@ -110,6 +114,7 @@ ul li {
   position: sticky;
   top: 0;
 }
+
 .header .header-container {
   max-width: 1280px;
   padding: 0 0.5rem;
@@ -125,13 +130,14 @@ ul li {
   color: #090909;
   cursor: pointer;
 }
+
 .site-logo .site-logo-img {
   box-sizing: border-box;
   max-width: 100%;
   width: auto;
   height: 40px;
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   display: inline-block;
   outline: 0;
 }
@@ -142,11 +148,13 @@ ul li {
   margin: 0 1rem;
   display: none;
 }
+
 .header-search .fields {
   display: flex;
   flex-flow: row;
   flex-wrap: wrap;
 }
+
 .header-search .fields .field {
   display: flex;
   flex-flow: row;
@@ -154,12 +162,13 @@ ul li {
   position: relative;
   align-items: center;
 }
+
 .header-search .fields .field .textfield {
   background-color: #fff;
   border: 1.5px solid rgb(212, 212, 212);
   color: rgb(23, 23, 23);
   -moz-appearance: none;
-       appearance: none;
+  appearance: none;
   -webkit-appearance: none;
   border-radius: 0.375rem;
   line-height: 1.5;
@@ -182,6 +191,7 @@ ul li {
   background-color: transparent;
   overflow-wrap: normal;
 }
+
 .btn-icon:hover {
   background-color: rgba(29, 78, 216, 0.1);
   fill: #1d4ed8;
@@ -195,6 +205,7 @@ ul li {
   text-decoration: none;
   border-radius: 0.375rem;
 }
+
 .link:hover {
   text-decoration: underline;
   background-color: rgba(29, 78, 216, 0.1);
@@ -213,6 +224,7 @@ ul li {
   text-decoration: none;
   border-radius: 0.375rem;
 }
+
 .create-account:hover {
   text-decoration: underline;
   color: white;
@@ -226,6 +238,7 @@ ul li {
   padding: 0.5rem;
   cursor: pointer;
 }
+
 .btn-hamburger:hover {
   background-color: rgba(29, 78, 216, 0.1);
 }
@@ -325,6 +338,7 @@ ul li {
   overflow-wrap: normal;
   background-color: transparent;
 }
+
 .c-link--blockods:hover {
   color: rgb(80, 80, 255);
   background-color: rgb(230, 230, 255);
@@ -401,6 +415,7 @@ ul {
   padding-right: 2%;
   padding-top: 2%;
 }
+
 .Mythreepoints:hover {
   background-color: rgb(247, 247, 247);
 }
@@ -435,6 +450,7 @@ ul {
 .c-link--branded {
   color: rgb(78, 78, 254);
 }
+
 .c-link--branded:hover {
   text-decoration: underline;
 }
@@ -446,22 +462,25 @@ ul {
   flex-direction: column;
   gap: 20px;
 }
+
 .posts nav {
   display: flex;
   justify-content: space-between;
   align-items: end;
 }
+
 .posts nav form {
   display: flex;
   align-items: center;
 }
+
 .posts nav form input {
   cursor: pointer;
   background-color: #fff;
   border: 1.5px solid rgb(212, 212, 212);
   color: rgb(23, 23, 23);
   -moz-appearance: none;
-       appearance: none;
+  appearance: none;
   -webkit-appearance: none;
   border-radius: 0.375rem;
   line-height: 1.5;
@@ -471,6 +490,7 @@ ul {
   width: 100%;
   resize: vertical;
 }
+
 .posts nav form button[type=submit] {
   padding: 0.5rem;
   cursor: pointer;
@@ -478,6 +498,7 @@ ul {
   border-radius: 0.375rem;
   background-color: transparent;
 }
+
 .posts nav form button[type=submit]:hover {
   background-color: rgba(29, 78, 216, 0.1);
   fill: #1d4ed8;
@@ -488,6 +509,7 @@ ul {
   overflow: hidden;
   border-radius: 0.375rem;
 }
+
 .tag-header:hover {
   color: #1d4ed8;
   background-color: white;
@@ -498,9 +520,11 @@ ul {
   margin: 0 0 0.5rem 0;
   padding: 1rem;
 }
+
 .post-section:hover {
   cursor: pointer;
 }
+
 .post-section .post-title {
   display: flex;
   flex-direction: column;
@@ -509,28 +533,33 @@ ul {
   padding-bottom: 5px;
   gap: 10px;
 }
+
 .post-section .post-title .post-author {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
 }
+
 .post-section .post-title .post-author .mainContainer {
   display: flex;
   justify-content: space-between;
   gap: 10px;
 }
+
 .post-section .post-title .post-author .mainContainer .avatar {
   border-radius: 50%;
   height: 40px;
   aspect-ratio: 1;
 }
+
 .post-section .post-title .post-author .buttonsContainer {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
 }
+
 .post-section .post-title .post-author .buttonsContainer .editButton {
   align-self: flex-end;
   padding: 0.5rem;
@@ -539,12 +568,14 @@ ul {
   text-decoration: none;
   border-radius: 0.375rem;
 }
+
 .post-section .post-title .post-author .buttonsContainer .editButton:hover {
   text-decoration: underline;
   color: white;
   background-color: #1d4ed8;
   cursor: pointer;
 }
+
 .post-section .post-title .post-author .buttonsContainer .deleteButton {
   align-self: flex-end;
   padding: 0.5rem;
@@ -553,44 +584,54 @@ ul {
   text-decoration: none;
   border-radius: 0.375rem;
 }
+
 .post-section .post-title .post-author .buttonsContainer .deleteButton:hover {
   text-decoration: underline;
   color: white;
   background-color: rgb(255, 113, 113);
   cursor: pointer;
 }
+
 .post-section .post-title .post-author:hover {
   cursor: pointer;
 }
+
 .post-section .post-title .post-title-info {
   font-size: 0.8rem;
   color: #334155;
 }
+
 .post-section .post-title .post-title-info :nth-child(1) {
   font-weight: bold;
 }
+
 .post-section .post-title .post-title-info:hover {
   cursor: pointer;
 }
+
 .post-section .post-indention .title {
   font-weight: 700;
   padding: 0.2rem;
   font-size: 1.25rem;
 }
+
 .post-section .post-indention .title:hover {
   cursor: pointer;
   color: #1d4ed8;
 }
+
 .post-section .post-indention .bottom {
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-size: 0.8rem;
 }
+
 .post-section .post-indention .bottom .details {
   display: flex;
   height: 36px;
 }
+
 .post-section .post-indention .bottom .details .reactions {
   display: flex;
   align-items: center;
@@ -598,6 +639,7 @@ ul {
   height: 100%;
   padding: 0.25rem;
 }
+
 .post-section .post-indention .bottom .details .reactions section {
   display: flex;
   align-items: center;
@@ -605,11 +647,13 @@ ul {
   gap: 5px;
   font-size: 15px;
 }
+
 .post-section .post-indention .bottom .details .reactions .reactions-icons {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
 }
+
 .post-section .post-indention .bottom .details .reactions .reactions-icons .reaction-icon {
   display: flex;
   background-color: #f3f4f6;
@@ -618,16 +662,19 @@ ul {
   margin-right: -0.75rem;
   overflow: hidden;
 }
+
 .post-section .post-indention .bottom .details .reactions .reactions-counter {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   padding: 0 0.4rem;
 }
+
 .post-section .post-indention .bottom .details .reactions:hover {
   cursor: pointer;
   background-color: #f3f4f6;
 }
+
 .post-section .post-indention .bottom .details .comments {
   display: flex;
   align-items: center;
@@ -635,21 +682,25 @@ ul {
   margin: 0;
   padding: 0.25rem 0.75rem;
 }
+
 .post-section .post-indention .bottom .details .comments:hover {
   cursor: pointer;
   background-color: #f3f4f6;
 }
+
 .post-section .post-indention .bottom .save {
   display: flex;
   align-items: center;
   gap: 8px;
   font-size: 15px;
 }
+
 .post-section .post-indention .bottom .save .icon {
   padding: 0.4rem;
   margin-left: 0.4rem;
   border-radius: 0.375rem;
 }
+
 .post-section .post-indention .bottom .save .icon:hover {
   cursor: pointer;
   background-color: #eef2ff;
@@ -660,58 +711,74 @@ ul {
 }
 
 /* Variables */
+
 /*Mixins*/
+
 .sidebar {
   flex: 2;
   border: none;
   padding: 0px;
 }
+
 .sidebar a {
   text-decoration: none;
   color: rgb(64, 64, 64);
 }
+
 .sidebar a:hover {
   cursor: pointer;
   color: rgb(47, 58, 178);
 }
+
 .sidebar .container1 {
   border-radius: 5px;
   box-shadow: inset;
   background-color: #fff;
 }
+
 .sidebar .container1 .listSidebar .firstPost {
   padding: 12px 16px;
   border-bottom: 1px solid rgb(245, 245, 245);
 }
+
 .sidebar .container1 .listSidebar .firstPost p {
   font-size: 12px;
 }
+
 .sidebar .container1 .listSidebar .postsList {
   border: none;
 }
+
 .sidebar .container1 .listSidebar .postsList .linkPrim {
   padding: 12px 16px !important;
   border-bottom: 1px solid rgb(245, 245, 245);
 }
+
 .sidebar .container1 .listSidebar .postsList .linkPrim p {
   font-size: 14px;
 }
+
 .sidebar .container1 .listSidebar .postsList .linkPrim div {
   font-size: 12px;
 }
+
 .sidebar .gap {
   margin-top: 0.5rem;
 }
+
 .sidebar .container2 {
   border-bottom: 1px solid rgb(230, 230, 230);
   padding: 0 16px 16px 16px;
 }
+
 .sidebar .container2 .title {
   padding: 12px 16px;
 }
+
 .sidebar .container2 .linkPrim {
   padding: 12px 16px 12px 25px;
 }
+
 .sidebar .container2 .linkPrim:hover {
   background-color: #fff;
   border-radius: 5px;
@@ -722,41 +789,52 @@ ul {
   .d-sm-block {
     display: block;
   }
+
   .d-sm-contents {
     display: contents;
   }
+
   .d-sm-none {
     display: none;
   }
+
   .header-search {
     display: block;
   }
+
   .post-section .post-indention .title {
     font-size: 1.5rem;
   }
 }
+
 @media (min-width: 768px) {
   .d-md-block {
     display: block;
   }
+
   .d-md-none {
     display: none;
   }
+
   .m-md-2 {
     padding: 0.5rem;
   }
+
   .post-indention {
     margin-left: 50px;
   }
+
   .site-logo {
     margin-left: 1rem;
   }
 }
+
 @media (min-width: 1024px) {
   .d-lg-block {
     display: block;
   }
 }
+
 .blog-card__card-img {
   height: 200px;
   width: 100%;
@@ -843,4 +921,5 @@ ul {
 
 .ms-4 {
   align-items: center;
-}/*# sourceMappingURL=main.css.map */
+}
+/*# sourceMappingURL=styles.css.map */

@@ -7,10 +7,62 @@
     <title>DEV Community</title>
     <link rel="icon" type="image/x-icon"
         href="https://res.cloudinary.com/practicaldev/image/fetch/s--E8ak4Hr1--/c_limit,f_auto,fl_progressive,q_auto,w_32/https://dev-to.s3.us-east-2.amazonaws.com/favicon.ico">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
+    <!-- Modal -->
+    <!-- <div id="edit-koder-modal" class="modal" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Editar koder:</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <form action="" id="edit-koder-form" class="bg-dark text-white p-3">
+                <div class="form-group mb-3">
+                  <label for="">Nombre</label>
+                  <input
+                    id="edit-name"
+                    type="text"
+                    name="name"
+                    class="form-control"
+                  />
+                </div>
+                <div class="form-group mb-3">
+                  <label for="">Apellido</label>
+                  <input
+                    id="edit-lastname"
+                    type="text"
+                    name="lastname"
+                    class="form-control"
+                  />
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+              <button id="save-changes-btn" type="button" class="btn btn-primary">
+                Guardar cambios
+              </button>
+            </div>
+          </div>
+        </div>
+      </div> -->
+    <!-- Header -->
+
     <header class="header">
         <div class="header-container">
             <span class="inline-block d-md-none mr-2">
@@ -51,14 +103,19 @@
                     </svg>
                 </button>
                 <div class="d-flex mr-2">
+                  <a href="./devto.html" class="my-auto create-account">
+                    Create post
+                </a>
                     <span class="d-none d-md-block">
-                        <a href="./login.html" class="link link-block mr-2 ml-auto">
-                            Log in
-                        </a>
+                      <a href="/notifications" id="notifications-link" class="c-link c-link--icon-alone c-link--block mx-1" aria-label="Notifications">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-labelledby="agy83qvxk20vdzyydy1n4z18xnevqdsm" class="crayons-icon"><title id="agy83qvxk20vdzyydy1n4z18xnevqdsm">Notifications</title>
+                  <path d="M20 17h2v2H2v-2h2v-7a8 8 0 1116 0v7zm-2 0v-7a6 6 0 10-12 0v7h12zm-9 4h6v2H9v-2z"></path>
+              </svg>
+
+                        <span class="c-indicator c-indicator--danger" id="notifications-number">6</span>
+                      </a>
                     </span>
-                    <a href="" class="my-auto create-account">
-                        Create account
-                    </a>
+                    
                 </div>
             </div>
         </div>
@@ -68,22 +125,6 @@
         <!--Aside  -->
 
         <aside class="asideods d-none d-md-block mx-2 crayons-layout__sidebar-left">
-            <div class="myCardInfo">
-                <h2 class="crayons-subtitle-2ods lh-tightods mb-4ods">
-                    DEV Community is a community of 1,258,580 amazing developers 
-                </h2>
-                <p class="color-base-70ods mb-4ods">
-                    We're a place where coders share, stay up-to-date and grow their careers. 
-                </p>
-                <div>
-                    <a href="" class="c-ctaods justify-centerods w-100ods mb-1ods">
-                        Create account
-                    </a>
-                    <a href="" class="justify-centerods c-link c-link--blockods">
-                        Log in
-                    </a>
-                </div>
-            </div>
             <nav class="mb-4ods mt-4ods">
                 <ul>
                     <li>
